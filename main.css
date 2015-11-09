@@ -1,0 +1,101 @@
+html {
+    background-color: #e6e9e9;
+    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    text-indent: 15px;
+    background-image: url("tatty_bear5.jpg");
+    background-repeat: no-repeat;
+    background-position:90% 67%;
+    margin-right: 200px;    
+}
+
+h2, h3, h4, h5, h6{
+  line-height: 30px;
+  margin-top:70px;
+  margin-bottom:30px;
+}
+h1 {
+        text-align: center;
+        text-decoration: underline;   
+        color:#AAE9FF;
+        font-size: 600%;
+        font-weight: bold;
+        font-family:serif;
+        font-style: oblique;
+        margin-bottom:80px
+    }
+    
+    h2 { 
+        text-indent: 15px;
+        font-size: 220%;
+        font-style:italic;
+    }
+    
+    body{ 
+         
+    } 
+    
+    p.ex1{
+        font: italic 20px/30px Georgia, serif;
+    }
+    ul.ex1{
+        font: italic 20px/30px Georgia, serif; }
+.mainHeader nav {
+	background: #666;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #AAE9FF;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 3% 0;
+}
+
